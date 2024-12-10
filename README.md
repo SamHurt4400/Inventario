@@ -1,7 +1,7 @@
 # Proyecto Inventario
 ### Inicio del proyecto 
 abre la terminal en la carpeta donde vas a guardar el proyecto, y pon los siguiente comando:
-...
+```
 mkdie proyecto-inventario
 cd proyecto-inventario
 ```
