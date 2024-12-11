@@ -64,6 +64,35 @@ estamos escuchando el puerto
 - console.log(`server running in port ${PORT}`)
 Me envio un mensaje para saber que todo esta bien
 
+### Ruta y controladores 
+Primera creamos las carpetas con
+```
+mkdir controllers models routes
+```
+
+
+Para la carpeta de routes generamos un documento llamado holaRoutes.js en la cual ingresamos el siguiente codigo: 
+
+```
+const express = require("express")
+const router = express.Router()
+const holaControllers = require("../controllers/holaController")
+router.get("/",holaControllers.holaMundo)
+module.exports=router
+```
+
+ahora explicaremos linea por linea
+
+- const express = require("express")
+
+Estamos asignando una variablle de nombre express la cual va a contener informacion de el paquete express instalado anteriormente
+
+- const router = express.Router()
+
+Traemos una parte de la informacion del paquete de express (Router) y se la asignamos a una variable llamada router 
+
+-
+
 
 
 
