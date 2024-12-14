@@ -91,8 +91,9 @@ Estamos asignando una variablle de nombre express la cual va a contener informac
 
 Traemos una parte de la informacion del paquete de express (Router) y se la asignamos a una variable llamada router 
 
--
+## Vamos a trabajar en el README de lo que vimos hoy
 
+Iniciamos seccion 
 
 
 
